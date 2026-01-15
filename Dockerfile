@@ -1,3 +1,4 @@
+LABEL org.opencontainers.image.source="https://github.com/timcappalli/caddy-docker-proxy-azcf"
 ARG CADDY_VERSION=2.10.2
 FROM caddy:${CADDY_VERSION}-builder AS builder
 
